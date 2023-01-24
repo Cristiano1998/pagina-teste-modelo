@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-image: url(/imagens/fundo.png);
+}
+
+.container{
+    width:60%;
+    margin-left: 21%;
+    
+    
+}
+
+.navbar{
+    background-color: grey;
+    padding:15px;
+    text-align: center;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+   margin-left:50px;
+   margin-right: 50px;
+}
+
+.navbar a:hover{
+    opacity:0.5;
+}
+
+.sobre{
+    width: 100%;
+    background-color: white;
+    padding:10px;
+    height:auto;
+}
+
+.sobre h1{
+    color:rgb(169, 144, 144);
+}
+
+.direitos{
+    padding:15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.sobre img{
+    width: 80%;
+    padding:10px 0;
+    margin-left:9%;
+    
+}
+
+.hamburger{
+    display:none;
+    
+}
+
+.sub-hamb{
+    display:none;
+    
+}
+
+.menu-hamb{
+    display:block;
+    padding:10px;
+}
+.hamburger:hover .sub-hamb{
+    display: block;
+
+}
